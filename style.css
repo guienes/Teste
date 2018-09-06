@@ -1,10 +1,12 @@
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
 body {
     margin: 0px;
     padding: 0px;
+    height: 100%;
 }
 
 .block{
@@ -131,7 +133,63 @@ body {
 
 .text2{
   text-align: justify;
-  padding: 16px;
+  padding: 0px;
   font-family: 'Noto Sans', sans-serif;
+  margin-top: 12px;
+}
+
+.end-block{
+  display: flex;
+  width: 100%;
+  height: 70px;
+  margin-bottom: 0px;
+  background-color: red;
+}
+
+.block10{
+  width: 30%;
+  height: 100%;
+  background-color: #370b0b;
+  margin-bottom: 0px;
+  padding: 4px;
+}
+
+.block11{
+  width: 40%;
+  height: 100%;
+  margin-bottom: 0px;
+  background-color: #370b0b;
+  padding: 4px;
+  display: flex;
+}
+.block12{
+  width: 30%;
+  height: 100%;
+  background-color: #370b0b;
+  margin-bottom: 0px;
+  padding: 4px;
+}
+
+.special-text{
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
   margin-top: 0px;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-left: 237px;
+}
+
+.gifz{
+  height: 83%;
+  padding: 0px;
+  margin-left: 22px;
+  margin-top: 5px;
+}
+
+.gifz-2{
+  -webkit-transform: scaleX(-1);
+  margin-left: -400px;
+  height: 83%;
+  margin-top: 5px;
 }
